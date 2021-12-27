@@ -6,7 +6,7 @@ import MapView from "react-native-maps";
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import NavigateCard from '../Components/NavigateCard';
 import RideOptionsCard from '../Components/RideOptionsCard';
-import FavouritePlaces from '../Components/FavouritePlaces';
+import SetFavouritePlaces from '../Components/SetFavouritePlaces';
 import FavoritesList from '../Components/FavoritesList';
 const MapScreen = () => {
     const Stack = createNativeStackNavigator(); 

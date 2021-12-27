@@ -6,7 +6,7 @@ import { useDispatch, useSelector} from 'react-redux';
 import { selectFavPlace, setFavPlace } from '../slices/favSlice';
 import {GOOGLE_MAPS_APIKEY} from "@env"; 
 
-const FavouritePlaces = () => {
+const SetFavouritePlaces = () => {
     
     const dispatch = useDispatch(); 
     const fav = useSelector(selectFavPlace);
@@ -27,7 +27,7 @@ const FavouritePlaces = () => {
         
         <View style={tw`pt-20`}>
             <GooglePlacesAutocomplete 
-                placeholder = "Choose your fav places"
+                placeholder = "Choose your favs"
                 styles = {{
                     container : {
                         flex:0, 
@@ -81,6 +81,6 @@ const FavouritePlaces = () => {
     )
 }
 
-export default FavouritePlaces
+export default SetFavouritePlaces
 
 const styles = StyleSheet.create({})
