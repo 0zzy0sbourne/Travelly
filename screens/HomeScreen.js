@@ -26,7 +26,7 @@ const HomeScreen = () => {
         <SafeAreaView style = {tw`bg-white h-full`}>
             <View style = {tw`p-10 flex-col `}>
                 <Text style = {tw`text-green-500 text-4xl mt-10 mb-5`}>
-                     Travelly   
+                     Travelly
                 </Text> 
             
                 <GooglePlacesAutocomplete
